@@ -12,11 +12,6 @@ import AVFoundation
 class ViewController: UIViewController
 {
     
-    @IBOutlet weak var textBox: UITextField!
-    @IBOutlet weak var drowDown: UIPickerView!
- 
-    
-    
     var player:AVAudioPlayer = AVAudioPlayer()
     
     
@@ -31,32 +26,25 @@ class ViewController: UIViewController
     }
     
     @IBAction func replay(_ sender: AnyObject)
+    
     {
         player.currentTime = 0
     }
+       override func viewDidLoad()
+       {
+        super.viewDidLoad()
+
     do
     {
     let audioPath = Bundle.main.path(forResource: "song" , ofType : "mp3")
-    try player = AVAudioPlayer(contentOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
     
     }
     catch
     {
-        //ERROR
+    //ERROR
     }
+
     
-    override func viewDidLoad()
-        
-    {
-        super.viewDidLoad()
-        
     }
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-   }
-
+}

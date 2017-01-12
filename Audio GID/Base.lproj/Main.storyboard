@@ -49,21 +49,9 @@
                                     <action selector="replay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nwL-yw-bFe"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrd-J1-fO6">
-                                <rect key="frame" x="111" y="369" width="152" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zNF-wD-WZx"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Mjj-sZ-nxI"/>
-                                </connections>
-                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="drowDown" destination="rrd-J1-fO6" id="Tc2-kR-N1z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

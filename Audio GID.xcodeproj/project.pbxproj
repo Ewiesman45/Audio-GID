@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81BEF841E27EC2A00755CD2 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F81BEF831E27EC2A00755CD2 /* song.mp3 */; };
 		F896A6F31E25413B005C0C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896A6F21E25413B005C0C42 /* AppDelegate.swift */; };
 		F896A6F51E25413B005C0C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896A6F41E25413B005C0C42 /* ViewController.swift */; };
 		F896A6F81E25413B005C0C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F896A6F61E25413B005C0C42 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		F896A7081E25413B005C0C42 /* Audio_GIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896A7071E25413B005C0C42 /* Audio_GIDTests.swift */; };
 		F896A7131E25413B005C0C42 /* Audio_GIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896A7121E25413B005C0C42 /* Audio_GIDUITests.swift */; };
 		F896A7211E254157005C0C42 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F896A7201E254157005C0C42 /* AudioToolbox.framework */; };
-		F896A7231E2546CC005C0C42 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F896A7221E2546CC005C0C42 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81BEF831E27EC2A00755CD2 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		F896A6EF1E25413B005C0C42 /* Audio GID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio GID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F896A6F21E25413B005C0C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F896A6F41E25413B005C0C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		F896A7121E25413B005C0C42 /* Audio_GIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_GIDUITests.swift; sourceTree = "<group>"; };
 		F896A7141E25413B005C0C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F896A7201E254157005C0C42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F896A7221E2546CC005C0C42 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				F896A6F61E25413B005C0C42 /* Main.storyboard */,
 				F896A6F91E25413B005C0C42 /* Assets.xcassets */,
 				F896A6FB1E25413B005C0C42 /* LaunchScreen.storyboard */,
-				F896A7221E2546CC005C0C42 /* song.mp3 */,
+				F81BEF831E27EC2A00755CD2 /* song.mp3 */,
 				F896A6FE1E25413B005C0C42 /* Info.plist */,
 			);
 			path = "Audio GID";
@@ -240,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F896A6FD1E25413B005C0C42 /* LaunchScreen.storyboard in Resources */,
-				F896A7231E2546CC005C0C42 /* song.mp3 in Resources */,
+				F81BEF841E27EC2A00755CD2 /* song.mp3 in Resources */,
 				F896A6FA1E25413B005C0C42 /* Assets.xcassets in Resources */,
 				F896A6F81E25413B005C0C42 /* Main.storyboard in Resources */,
 			);
