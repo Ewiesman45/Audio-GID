@@ -3,7 +3,7 @@
 //  Audio GID
 //
 //  Created by Evan Wiesman on 1/10/17.
-//  Copyright © 2017 Evan Wiesman. All rights reserved.
+//  Copyright © 2017 Olivia Menconi and Evan Wiesman. All rights reserved.
 //
 
 import UIKit
