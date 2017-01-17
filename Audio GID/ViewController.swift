@@ -12,7 +12,7 @@ import AVFoundation
 class ViewController: UIViewController
 {
     
-    var player:AVAudioPlayer = AVAudioPlayer()
+    var player: AVAudioPlayer = AVAudioPlayer()
     
     
     @IBAction func play(_ sender: AnyObject)
@@ -38,7 +38,7 @@ class ViewController: UIViewController
     {
     let audioPath = Bundle.main.path(forResource: "song" , ofType : "mp3")
         try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
-    
+        //(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
     }
     catch
     {
